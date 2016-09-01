@@ -29,7 +29,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53.a57
 
 ENABLE_CPUSETS := true
-
+BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 TARGET_NO_BOOTLOADER := true
 
 # Inline kernel building
