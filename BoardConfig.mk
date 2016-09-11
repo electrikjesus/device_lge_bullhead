@@ -35,7 +35,7 @@ TARGET_NO_BOOTLOADER := true
 # Inline kernel building
 TARGET_GCC_VERSION_ARM64 := 4.9-kernel
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
-TARGET_KERNEL_CONFIG := phasma_defconfig
+TARGET_KERNEL_CONFIG := purenexus_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
