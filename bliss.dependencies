@@ -1,0 +1,14 @@
+[
+ {
+   "remote": "github",
+   "repository": "PureNexusProject/android_kernel_lge_bullhead",
+   "target_path": "kernel/lge/bullhead",
+   "revision": "n"
+ },
+ {
+   "remote": "github",
+   "repository": "lectrikjesus/vendor_lge",
+   "target_path": "vendor/lge",
+   "revision": "master"
+ }
+]
