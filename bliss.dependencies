@@ -7,7 +7,7 @@
  },
  {
    "remote": "github",
-   "repository": "lectrikjesus/vendor_lge",
+   "repository": "electrikjesus/vendor_lge",
    "target_path": "vendor/lge",
    "revision": "master"
  }
