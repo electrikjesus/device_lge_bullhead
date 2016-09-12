@@ -118,6 +118,10 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 100663296
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+BOARD_NEEDS_VENDOR_SYMLINK:=true
+
+-include vendor/lge/bullhead/BoardConfigVendor.mk
+
 # Build a separate vendor.img
 TARGET_COPY_OUT_VENDOR := vendor
 
@@ -150,4 +154,3 @@ TARGET_PER_MGR_ENABLED := true
 
 USE_CLANG_PLATFORM_BUILD := true
 
--include vendor/lge/bullhead/BoardConfigVendor.mk
